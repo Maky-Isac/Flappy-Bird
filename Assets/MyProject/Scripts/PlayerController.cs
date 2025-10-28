@@ -13,12 +13,20 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float moveSpeed = 1f;
 
     [Header("Fly System")]
-    [SerializeField] private float jumpForce = 100f;
+    [SerializeField] private float flyForce = 100f;
     [SerializeField] private bool canFly = false;
 
     private void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        {
+            canFly = true;
+        }
     }
 
     private void FixedUpdate()
@@ -32,5 +40,11 @@ public class PlayerController : MonoBehaviour
 
         //---Método 2: Mais utilizado---
         rb2d.velocity = new Vector2 (moveSpeed, rb2d.velocity.y);
+
+        if (canFly)
+        {
+            rb2d.AddForce(Vector2.up * flyForce);
+            canFly = false;
+        }
     }
 }
