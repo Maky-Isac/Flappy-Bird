@@ -610,9 +610,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6d52feec21611648a75c08547d4c57b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
-  jumpForce: 100
-  canFly: 0
+  moveSpeed: 0
+  flyForce: 100
+  rotFactor: 3
+  maxFallAngle: -90
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
