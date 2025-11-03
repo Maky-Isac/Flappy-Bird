@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
 
         if (shouldFly)
         {
+            rb2d.velocity = new Vector2(rb2d.velocity.x, 0f);
             rb2d.AddForce(Vector2.up * flyForce);
             shouldFly = false;
         }
@@ -51,7 +52,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            float fallFactor = -rb2d.velocity.y / rotFactor;
+            float fallFactor = Mathf.Clamp01(- rb2d.velocity.y / rotFactor);
             float angle = Mathf.Lerp(0, maxFallAngle, fallFactor);
             transform.rotation = Quaternion.Euler(0, 0, angle);
         }
