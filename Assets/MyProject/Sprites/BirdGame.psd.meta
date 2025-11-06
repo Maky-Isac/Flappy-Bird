@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1a655abf4800a1642b9eb954f34e7f6c
+guid: bc6684da2b48f924c853182dc23ad017
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ed01c460e7860f4683ffef0e0250b33
-      internalID: -1621246527
+      spriteID: 7f24d49ca2756c943a44f12a36811eca
+      internalID: 2089205077
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86708f96141ecbf4b96c95533e26ec72
-      internalID: -159872907
+      spriteID: b5e61f0b23800e94996fe5eeb8d72795
+      internalID: 1922427803
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c77962bcdc565e545beba6a823e732a9
-      internalID: -497802390
+      spriteID: 8449ed2787dc2734e921dc9314dba451
+      internalID: -710477065
       vertices: []
       indices: 
       edges: []
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e39712005b4b844bbcdcd26edb77153
-      internalID: -1809439728
+      spriteID: cddb24650b7c1fe4d82c404c3c140a0e
+      internalID: 1137757102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BirdFlying1
+      name: BirdFly1
       rect:
         serializedVersion: 2
         x: 151
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76180e2cb9ea04d4293262f40c48f035
-      internalID: -542830262
+      spriteID: cf4482c437c81a746b8f69898a3089cc
+      internalID: 946214889
       vertices: []
       indices: 
       edges: []
@@ -242,8 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e322f19ff030c714fbeaee4aae7aeab6
-      internalID: 29770952
+      spriteID: 700db5c233c61d64caff7560320f4654
+      internalID: 636034359
       vertices: []
       indices: 
       edges: []
@@ -263,8 +263,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4da45c06abaf774c868829852e996aa
-      internalID: 495318985
+      spriteID: 7e3ac364395d3a948a6038872422d7f0
+      internalID: 2130518498
       vertices: []
       indices: 
       edges: []
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e384450897f19404891b3495e931fc61
-      internalID: 1993076305
+      spriteID: e9a284e617740174698955b28badeea6
+      internalID: -623516095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BirdFlying2
+      name: BirdFly2
       rect:
         serializedVersion: 2
         x: 151
@@ -305,8 +305,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf8c450b3f0862a478ed614f1737d6b4
-      internalID: 1026315989
+      spriteID: 53bcb7c6435125847809b00539a8590d
+      internalID: -2046336739
       vertices: []
       indices: 
       edges: []
@@ -326,8 +326,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd0a2ded14cd5874ca33ec2eb24c3bf7
-      internalID: -2069453019
+      spriteID: 61863a6df5a8ed649be9d3f52839b194
+      internalID: -2063870362
       vertices: []
       indices: 
       edges: []
@@ -347,8 +347,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c273c5c6777e4904091500ba6df39380
-      internalID: -2042372859
+      spriteID: 4ce9f0435378c144bac92921971b4d2e
+      internalID: -1068513065
       vertices: []
       indices: 
       edges: []
@@ -368,8 +368,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ff3074606195d74fb6ba4f7967b36e0
-      internalID: -193866228
+      spriteID: 3522481daa407b54ebe2221220ea66b4
+      internalID: 1653740569
       vertices: []
       indices: 
       edges: []
@@ -389,8 +389,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcec9bbe9d2a0fd4987bc79ddcf1ef4d
-      internalID: -1472508440
+      spriteID: efc601334fe42cc4fb97424a41208bc0
+      internalID: -978257723
       vertices: []
       indices: 
       edges: []
@@ -410,8 +410,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69d69acb41bef854197b4bc959c2ed65
-      internalID: -994092446
+      spriteID: bf0a5baf019e6ab49b579b29594d71c7
+      internalID: -356844537
       vertices: []
       indices: 
       edges: []
@@ -431,8 +431,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52b36be94bbc61d4cb255f8b4162d2e4
-      internalID: 1368154269
+      spriteID: 5294d0a49672a0d4c843c0dfa81c97b8
+      internalID: 786830110
       vertices: []
       indices: 
       edges: []
@@ -452,8 +452,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5628097571aad349b510ad74a515a37
-      internalID: 894177083
+      spriteID: 98f11e08f9463aa4daa542b98b6acc87
+      internalID: 1129705275
       vertices: []
       indices: 
       edges: []
@@ -473,8 +473,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d62ff684064d9144688229051925ee41
-      internalID: -2126585050
+      spriteID: 5f80df37fe8d8c640a45f716a7cf24f7
+      internalID: 2067440532
       vertices: []
       indices: 
       edges: []
@@ -494,8 +494,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4120735c29d7c614fa92d9ce5a735a07
-      internalID: 1262455640
+      spriteID: 167bef7a281a05f4b81c207088cdab42
+      internalID: 920570240
       vertices: []
       indices: 
       edges: []
@@ -515,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c00a4c1e3492dd84c844f2205ae19467
-      internalID: 1758642678
+      spriteID: 8a0989b8b74509540919b4ca9d2fc184
+      internalID: 1950298562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BirdFlying3
+      name: BirdFly3
       rect:
         serializedVersion: 2
         x: 151
@@ -536,8 +536,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb80010ce317cac4b9569000a3f1b526
-      internalID: -1405048195
+      spriteID: 4c8f894fa669bb342a4586382657941e
+      internalID: 414021942
       vertices: []
       indices: 
       edges: []
@@ -557,8 +557,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9856e991c59dd8944a1b23ebd11280ae
-      internalID: -963302176
+      spriteID: 37d117e4813ec41428f56087714cd7bb
+      internalID: -280748390
       vertices: []
       indices: 
       edges: []
@@ -578,8 +578,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ce8e6b00c1f82b4984f3927fd0291a0
-      internalID: 1520898732
+      spriteID: 4d73e449f4e8c0c449e5562fa27a0066
+      internalID: -1857750795
       vertices: []
       indices: 
       edges: []
@@ -595,39 +595,39 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Background: -1621246527
-      BirdDeath: -963302176
-      BirdFlying1: -542830262
-      BirdFlying2: 1026315989
-      BirdFlying3: -1405048195
-      BirdGame_10: -706156450
-      BirdGame_11: -432006850
-      BirdGame_12: -125122935
-      BirdGame_16: 1993076305
-      BirdGame_17: -48730135
-      BirdGame_18: -1921079776
-      BirdGame_2: -497802390
-      BirdGame_20: -2069453019
-      BirdGame_21: -2042372859
-      BirdGame_22: -193866228
-      BirdGame_23: -1472508440
-      BirdGame_24: -994092446
-      BirdGame_25: 1368154269
-      BirdGame_26: 894177083
-      BirdGame_27: -2126585050
-      BirdGame_28: 1262455640
-      BirdGame_29: 1758642678
-      BirdGame_3: -1168053110
-      BirdGame_32: 1520898732
-      BirdGame_4: -1564446001
-      BirdGame_5: 917033710
-      BirdGame_6: 1333537946
-      BirdGame_7: -1809439728
-      BirdGame_8: 338856092
-      BirdGame_9: 1081221371
-      Ground: -159872907
-      PipeBottom: 495318985
-      PipeTop: 29770952
+      Background: 2089205077
+      BirdDeath: -280748390
+      BirdFly1: 946214889
+      BirdFly2: -2046336739
+      BirdFly3: 414021942
+      BirdGame_10: -758539297
+      BirdGame_11: 930448520
+      BirdGame_12: -904029502
+      BirdGame_16: -623516095
+      BirdGame_17: -609361303
+      BirdGame_18: -1822049196
+      BirdGame_2: -710477065
+      BirdGame_20: -2063870362
+      BirdGame_21: -1068513065
+      BirdGame_22: 1653740569
+      BirdGame_23: -978257723
+      BirdGame_24: -356844537
+      BirdGame_25: 786830110
+      BirdGame_26: 1129705275
+      BirdGame_27: 2067440532
+      BirdGame_28: 920570240
+      BirdGame_29: 1950298562
+      BirdGame_3: -319961430
+      BirdGame_32: -1857750795
+      BirdGame_4: -888308971
+      BirdGame_5: -2004812730
+      BirdGame_6: 1213520180
+      BirdGame_7: 1137757102
+      BirdGame_8: 905436393
+      BirdGame_9: 1802217354
+      Ground: 1922427803
+      PipeBottom: 2130518498
+      PipeTop: 636034359
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
