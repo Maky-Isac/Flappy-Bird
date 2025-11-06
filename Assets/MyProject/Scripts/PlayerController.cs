@@ -5,6 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))] // INSERIR
 public class PlayerController : MonoBehaviour
 {
+    public bool isDead = false;
+
     [Header("Movement System")] // AJUSTAR
     public Rigidbody2D rb2d;
     [SerializeField] private float moveSpeed = 1f;
@@ -15,9 +17,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float rotFactor = 3f;
     [SerializeField] private bool canFly;
 
+    private Animator animator;
+
     private void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -28,15 +33,40 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb2d.velocity = new Vector2(moveSpeed, rb2d.velocity.y);
+        if (isDead) return;
 
+        Move();
+        Fly();
+        Fall();
+    }
+
+    private void OnCollisionEnter2D(Collision2D _other)
+    {
+        if (isDead) return;
+
+        rb2d.constraints = RigidbodyConstraints2D.FreezeRotation;
+        animator.SetTrigger("Dead");
+        isDead = true;
+    }
+
+    private void Move()
+    {
+        rb2d.velocity = new Vector2(moveSpeed, rb2d.velocity.y);
+    }
+
+    private void Fly()
+    {
         if (canFly)
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, 0f);
             rb2d.AddForce(Vector2.up * flyForce);
+            animator.SetTrigger("Fly");
             canFly = false;
         }
+    }
 
+    private void Fall()
+    {
         if (rb2d.velocity.y > 0f)
         {
             transform.rotation = Quaternion.Euler(0, 0, 0);
