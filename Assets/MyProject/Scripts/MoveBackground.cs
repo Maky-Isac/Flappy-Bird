@@ -9,7 +9,6 @@ public class MoveBackground : MonoBehaviour
     {
         if (_other.CompareTag("Background"))
         {
-            Debug.Log("Hit");
             Vector3 _newPosition = _other.transform.position;
             _newPosition.x += boxSize * quantity;
             _other.transform.position = _newPosition;

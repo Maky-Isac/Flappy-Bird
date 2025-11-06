@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 156240763}
   - component: {fileID: 156240762}
   - component: {fileID: 156240761}
+  - component: {fileID: 156240764}
   m_Layer: 0
   m_Name: Background (3)
   m_TagString: Background
@@ -252,6 +253,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &156240764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156240760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3aafcfebc43d044baa14368f7036855, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 948660318}
+  scrollSpeed: 0.75
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -844,7 +859,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 0.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -869,7 +884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb2d: {fileID: 948660318}
-  moveSpeed: 0
+  moveSpeed: 1
   flyForce: 100
   maxFallAngle: -90
   rotFactor: 3
@@ -1078,6 +1093,7 @@ GameObject:
   - component: {fileID: 1122755243}
   - component: {fileID: 1122755242}
   - component: {fileID: 1122755241}
+  - component: {fileID: 1122755244}
   m_Layer: 0
   m_Name: Background (4)
   m_TagString: Background
@@ -1197,6 +1213,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1122755244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122755240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3aafcfebc43d044baa14368f7036855, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 948660318}
+  scrollSpeed: 0.75
 --- !u!1 &1460801355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,6 +1238,7 @@ GameObject:
   - component: {fileID: 1460801357}
   - component: {fileID: 1460801356}
   - component: {fileID: 1460801358}
+  - component: {fileID: 1460801359}
   m_Layer: 0
   m_Name: Background (1)
   m_TagString: Background
@@ -1327,6 +1358,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.44, y: 2.56}
   m_EdgeRadius: 0
+--- !u!114 &1460801359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460801355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3aafcfebc43d044baa14368f7036855, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 948660318}
+  scrollSpeed: 0.75
 --- !u!1 &1777783463
 GameObject:
   m_ObjectHideFlags: 0
@@ -1616,6 +1661,7 @@ GameObject:
   - component: {fileID: 1962478638}
   - component: {fileID: 1962478637}
   - component: {fileID: 1962478636}
+  - component: {fileID: 1962478639}
   m_Layer: 0
   m_Name: Background (2)
   m_TagString: Background
@@ -1735,6 +1781,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1962478639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962478635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3aafcfebc43d044baa14368f7036855, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 948660318}
+  scrollSpeed: 0.75
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
