@@ -2,22 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))] // INSERIR
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+    [Header("Flags")]
     public bool isDead = false;
+    [SerializeField] private bool canFly;
 
-    [Header("Movement System")] // AJUSTAR
+    [Header("Component References")]
+    public Animator animator;
     public Rigidbody2D rb2d;
+
+    [Header("Movement System")]
     [SerializeField] private float moveSpeed = 1f;
 
-    [Header("Fly System")] // AJUSTAR
+    [Header("Fly System")]
     [SerializeField] private float flyForce = 100f;
     [SerializeField] private float maxFallAngle = -90f;
     [SerializeField] private float rotFactor = 3f;
-    [SerializeField] private bool canFly;
-
-    private Animator animator;
 
     private void Awake()
     {
