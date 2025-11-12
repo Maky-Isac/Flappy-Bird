@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
@@ -29,8 +30,10 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
-            canFly = true;
+        CheckInputs();
+
+        if (Input.GetKeyDown(KeyCode.Return) && isDead)
+            SceneManager.LoadScene("Game");
     }
 
     private void FixedUpdate()
@@ -78,5 +81,13 @@ public class PlayerController : MonoBehaviour
             float _angle = Mathf.Lerp(0, maxFallAngle, -rb2d.velocity.y / rotFactor);
             transform.rotation = Quaternion.Euler(0, 0, _angle);
         }
+    }
+
+    private void CheckInputs()
+    {
+        if (isDead) return;
+
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            canFly = true;
     }
 }
