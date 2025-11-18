@@ -12,4 +12,10 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene(sceneGame);
         Debug.Log("Vem para Play");
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
 }

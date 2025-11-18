@@ -22,6 +22,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float maxFallAngle = -90f;
     [SerializeField] private float rotFactor = 3f;
 
+    [Header("Shoot System")]
+    [SerializeField] private GameObject projectilePrefab;
+    [SerializeField] private Transform shootPoint;
+    [SerializeField] private float projectileSpeed = 10f;
+    [SerializeField] private float flyPenalty = 5f;
+
     private void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -64,6 +70,7 @@ public class PlayerController : MonoBehaviour
         if (canFly)
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, 0f);
+            flyForce = 70f;
             rb2d.AddForce(Vector2.up * flyForce);
             animator.SetTrigger("Fly");
             canFly = false;
@@ -83,11 +90,25 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void Shoot()
+    {
+        if (isDead) return;
+
+        GameObject proj = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
+        Rigidbody2D rbProj = proj.GetComponent<Rigidbody2D>();
+        rbProj.velocity = new Vector2(projectileSpeed, 0f);
+
+        flyForce = Mathf.Max(20f, flyForce - flyPenalty);
+    }
+
     private void CheckInputs()
     {
         if (isDead) return;
 
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
             canFly = true;
+
+        if (Input.GetMouseButtonDown(1)) 
+            Shoot();
     }
 }
