@@ -8,6 +8,9 @@ public class MovePipes : MonoBehaviour
     [SerializeField] private float minY = -0.5f;
     [SerializeField] private float maxY = -1f;
 
+    [SerializeField] private GameObject breakableWall;
+    [SerializeField] private float activateChance = 0.30f;
+
     private GameObject[] pipes;
 
     private void Start()
@@ -34,7 +37,13 @@ public class MovePipes : MonoBehaviour
 
             other.transform.position = _newPosition;
 
+            bool activate = Random.value <= activateChance;
+            breakableWall.SetActive(activate);
+
+
             nextPositionIndex++;
         }
+
+        
     }
 }

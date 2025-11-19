@@ -9,7 +9,7 @@ public class Projectile : MonoBehaviour
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
-        else if (other.CompareTag("Pipes") || other.CompareTag("Wall"))
+        else if (other.CompareTag("Wall"))
         {
             Destroy(gameObject);
         }

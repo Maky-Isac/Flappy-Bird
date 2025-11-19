@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class BreakableWall : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.collider.CompareTag("Player"))
+        if (other.CompareTag("Projects"))
         {
-            collision.collider.GetComponent<PlayerController>().isDead = true;
+            gameObject.SetActive(false);
         }
     }
 }
