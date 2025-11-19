@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BreakableWall : MonoBehaviour
@@ -8,7 +6,9 @@ public class BreakableWall : MonoBehaviour
     {
         if (other.CompareTag("Projects"))
         {
+            Debug.Log("Parede destruída!");
             gameObject.SetActive(false);
         }
     }
+
 }

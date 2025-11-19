@@ -8,22 +8,19 @@ public class MovePipes : MonoBehaviour
     [SerializeField] private float minY = -0.5f;
     [SerializeField] private float maxY = -1f;
 
-    [SerializeField] private GameObject breakableWall;
-    [SerializeField] private float activateChance = 0.30f;
-
     private GameObject[] pipes;
 
+    private GameObject[] walls;
+    
     private void Start()
     {
         pipes = GameObject.FindGameObjectsWithTag("Pipes");
 
         foreach (GameObject pipe in pipes)
         {
-            {
-                Vector3 _newPosition = pipe.transform.position;
-                _newPosition.y = Random.Range(minY, maxY);
-                pipe.transform.position = _newPosition;
-            }
+            Vector3 _newPosition = pipe.transform.position;
+            _newPosition.y = Random.Range(minY, maxY);
+            pipe.transform.position = _newPosition;
         }
     }
 
@@ -37,13 +34,15 @@ public class MovePipes : MonoBehaviour
 
             other.transform.position = _newPosition;
 
-            bool activate = Random.value <= activateChance;
-            breakableWall.SetActive(activate);
-
+            walls = GameObject.FindGameObjectsWithTag("BreakableWall");
+            
+            foreach (GameObject wall in walls)
+            {
+                wall.SetActive(true);
+            }
 
             nextPositionIndex++;
         }
-
         
     }
 }
