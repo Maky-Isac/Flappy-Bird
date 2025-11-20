@@ -3,14 +3,12 @@ using UnityEngine;
 public class MovePipes : MonoBehaviour
 {
     [SerializeField] private float spacing = 1f;
-    private static int nextPositionIndex = 6;
+    private static int nextPositionIndex = 7;
 
     [SerializeField] private float minY = -0.5f;
     [SerializeField] private float maxY = -1f;
 
     private GameObject[] pipes;
-
-    private GameObject[] walls;
     
     private void Start()
     {
@@ -34,11 +32,11 @@ public class MovePipes : MonoBehaviour
 
             other.transform.position = _newPosition;
 
-            walls = GameObject.FindGameObjectsWithTag("BreakableWall");
+            Transform block = other.transform.Find("Block");
             
-            foreach (GameObject wall in walls)
+            if (block != null)
             {
-                wall.SetActive(true);
+                block.gameObject.SetActive(true);
             }
 
             nextPositionIndex++;

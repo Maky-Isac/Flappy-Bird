@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a0149235778b06d4f91476b1b1a9d04b
+guid: 2aefed907040e3e46ad0a5d80d8e3935
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Tipos de Ch\xE3o_0"
+      name: "Tipos de Ch\xE3o (1)_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1185
-        height: 864
+        width: 119
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b0aaac9b78e37c44a9946cb8fd8d8e7
-      internalID: -474183398
+      spriteID: 39c7246fa404b3e4bab28ff60e50238d
+      internalID: 393846506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Tipos de Ch\xE3o_1"
+      name: "Tipos de Ch\xE3o (1)_1"
       rect:
         serializedVersion: 2
-        x: 1391
+        x: 139
         y: 0
-        width: 1187
-        height: 864
+        width: 119
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e9764ee431e80241a9768caa449c202
-      internalID: -1592557151
+      spriteID: e309ece23de8d5a4989cec395461364e
+      internalID: -568454051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Tipos de Ch\xE3o_2"
+      name: "Tipos de Ch\xE3o (1)_2"
       rect:
         serializedVersion: 2
-        x: 2773
+        x: 277
         y: 0
-        width: 1185
-        height: 864
+        width: 119
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13f26c3106529fc489f82dd126a366c5
-      internalID: -1800913009
+      spriteID: a4cbd626a7dc02b439cdce1102f4df60
+      internalID: 1402228207
       vertices: []
       indices: 
       edges: []
@@ -170,9 +170,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "Tipos de Ch\xE3o_0": -474183398
-      "Tipos de Ch\xE3o_1": -1592557151
-      "Tipos de Ch\xE3o_2": -1800913009
+      "Tipos de Ch\xE3o (1)_0": 393846506
+      "Tipos de Ch\xE3o (1)_1": -568454051
+      "Tipos de Ch\xE3o (1)_2": 1402228207
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
