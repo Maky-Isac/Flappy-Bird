@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c5f505ab37fa7dc4d95fbfbd5f7a3dad
+guid: 2aefed907040e3e46ad0a5d80d8e3935
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,7 +95,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "Tipos de Ch\xE3o (1)_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 118
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c7246fa404b3e4bab28ff60e50238d
+      internalID: 393846506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tipos de Ch\xE3o (1)_1"
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1
+        width: 119
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e309ece23de8d5a4989cec395461364e
+      internalID: -568454051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tipos de Ch\xE3o (1)_2"
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1
+        width: 117
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cbd626a7dc02b439cdce1102f4df60
+      internalID: 1402228207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +169,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Tipos de Ch\xE3o (1)_0": 393846506
+      "Tipos de Ch\xE3o (1)_1": -568454051
+      "Tipos de Ch\xE3o (1)_2": 1402228207
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
