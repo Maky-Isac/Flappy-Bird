@@ -58,6 +58,7 @@ public class PlayerController : MonoBehaviour
         rb2d.constraints = RigidbodyConstraints2D.FreezeRotation;
         animator.SetTrigger("Dead");
         isDead = true;
+        FindObjectOfType<GameManager>().GameOver();
     }
 
     private void Move()
